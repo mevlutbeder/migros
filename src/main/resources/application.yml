@@ -9,3 +9,8 @@ spring:
     url: jdbc:mysql://localhost:3306/migdb?useSSL=false&useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: 1234
+    hikari:
+      connection-timeout: 1200000
+      maximum-pool-size: 5
+      minimum-idle: 2
+      pool-name: data-source

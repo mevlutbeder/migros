@@ -3,9 +3,9 @@ package com.ecommerce.model.entity;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.Type;
-import java.util.Date;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name = "product")
